@@ -1,0 +1,77 @@
+body{
+    background-color: #f5ebe3;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    width:500px;
+    height:365px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image{
+    width: 50%;
+}
+.bimage{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    display: block;
+}
+.content{
+    width: 50%; 
+    padding: 20px 27px;
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    color: #8d8d9b;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-bottom: 17px;
+}
+h1{
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:0.95;
+    color:#080808;
+    margin-bottom:20px;
+}
+.description{
+    color:#777986;
+    line-height:1.6;
+    margin-bottom: 18px;
+    font-size:12px;
+}
+button{
+    background-color: #194d3d;
+    color:white ;
+    border: none;
+    border-radius: 5px;
+    margin-top:20px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #123c30;
+}
+.new-price{
+    color: #397b68;
+    font-size:30px;
+}
+.old-price{
+    font-size: 15px;
+    text-decoration: line-through;
+    color: #777986;
+}
